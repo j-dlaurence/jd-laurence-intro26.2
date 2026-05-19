@@ -58,11 +58,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: px;
+    gap:16 px;
 }
 
 .experience-title {
-    
     font-weight: 600;
     font-size: 1rem;
     width: 60%;
@@ -71,7 +70,6 @@ h2 {
 .experience-company {
     font-style: italic;
     font-size:0.9rem;
-    /* color: #888; */
     width: 20%;
 }
 
