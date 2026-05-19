@@ -58,7 +58,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap:16 px;
+    gap: 16px;
 }
 
 .experience-title {
