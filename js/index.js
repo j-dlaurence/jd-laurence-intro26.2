@@ -2,7 +2,7 @@ const body = document.body;
 const footer = document.createElement('footer');
 body.appendChild(footer);
 
-today = new Date();
+const today = new Date();
 const thisYear = today.getFullYear();
 const copyright = document.createElement('p');
 copyright.innerHTML = `\u00A9 ${thisYear} J-D Laurence`;
