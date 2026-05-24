@@ -9,7 +9,7 @@ copyright.innerHTML = `\u00A9 ${thisYear} J-D Laurence`;
 footer.appendChild(copyright);
 
 const skills = ['HTML', 'CSS', 'JavaScript', 'Python', 'Git', 'SQL', 'C++', 'Java'];
-const skillsSection = document.querySelector('#skills');
+const skillsSection = document.querySelector('#Skills');
 const skillsList = skillsSection.querySelector('ul');
 
 for (let i = 0; i < skills.length; i++) {

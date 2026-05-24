@@ -82,11 +82,11 @@ h2 {
 
 /*we use autofit to make the grid responsive,
  with a minimum column width of 120px and a maximum of 1fr (taking up available space) */
-#skills ul {
+#Skills ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 8px;
-    padding-left: 40;
+    padding-left: 40px;
 }
 
 
