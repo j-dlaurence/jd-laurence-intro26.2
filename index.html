@@ -16,6 +16,7 @@
             <a href="#Skills">Skills</a>
             <a href="#Projects">Projects</a>
             <a href="#Connect">Connect</a>
+            <a href="#Message">Leave a Message</a>
         </nav>
         
         <h1>John-Daniel Laurence</h1>
@@ -128,7 +129,30 @@
         </p>
     <script src="js/index.js" defer>
 
-    </script>   
+    </script> 
+    <section id="Message">
+        <h2>Leave a Message</h2>
+        <form name="leave_message">
+            <label for="usersName">Name</label>
+            <input type="text" name="usersName" id="usersName" required>
+            <!-- name helps us use the contents of the box; id gives the box an identifier we can eg link the label to -->
+            <label for="usersEmail">Email</label>
+            <input type="email" name="usersEmail" id="usersEmail" required>
+
+            <label for="usersMessage">Message</label>
+            <textarea name="usersMessage" id="usersMessage" required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    <section id="messages">
+        <h2>Messages</h2>
+        <ul>
+
+        </ul>
+    </section>
+    
+
     </body>
 
 </html>
