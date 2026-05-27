@@ -18,7 +18,7 @@ for (let i = 0; i < skills.length; i++) {
     skillsList.appendChild(skill);
 }
 
-const messageForm = document.querySelector(('[name="leave_message"]'));
+const messageForm = document.querySelector('[name="leave_message"]');
 messageForm.addEventListener('submit', function(event){
     event.preventDefault(); //this stops the page refreshing
     const usersName = event.target.usersName.value;
