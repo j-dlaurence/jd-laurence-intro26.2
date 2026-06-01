@@ -54,6 +54,21 @@ h2 {
     padding-bottom: 4px;
 }
 
+
+#Projects ul {
+  list-style: none;        /* removes bullet points */
+  display: flex;
+  flex-wrap: wrap;         /* wraps to next line when more repos are added */
+  gap: 10px;
+  padding: 0;
+}
+
+#Projects li {
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+
 .experience-header {
     display: flex;
     justify-content: space-between;
