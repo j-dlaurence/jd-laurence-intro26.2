@@ -63,6 +63,7 @@ let repositories; // we have to declare it here so we can use it later
 let projectSection = document.querySelector('#Projects');
 let projectList = projectSection.querySelector('ul');
 fetch('https://api.github.com/users/j-dlaurence/repos')
+// fetch('https://fake') //to test error handling
     .then(response => response.json())
     .then(data => {
         repositories = data;
@@ -80,6 +81,9 @@ fetch('https://api.github.com/users/j-dlaurence/repos')
 //so we can chain the .then()s, and the next one takes that promise as an input
 //
     .catch(error => {
-        console.log("Something went wrong:", error)
+        console.log("Something went wrong:", error);
+        let errorMessage = document.createElement('p');
+        errorMessage.innerText = "Error: Unable to load projects";
+        projectSection.appendChild(errorMessage);
     })
 
