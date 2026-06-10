@@ -9,14 +9,17 @@
         <link rel="stylesheet" href="css/index.css">
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
-        <body>
+    <body>
         <nav>
-            <a href="#About">About</a>
-            <a href="#Experience">Experience</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Connect">Connect</a>
-            <a href="#Message">Leave a Message</a>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li></li><a href="#Experience">Experience</a></li>
+                <li></li><a href="#Skills">Skills</a></li>
+                <li></li><a href="#Projects">Projects</a></li>
+                <li></li><a href="#Connect">Connect</a></li>
+                <li></li><a href="#Message">Message</a></li>
+                <li></li><a href="openapi.html">About</a></li>
+            </ul>
         </nav>
         
         <h1>John-Daniel Laurence</h1>
@@ -127,31 +130,32 @@
         <p class="photo-credit">
             Photo by Bradley Allweil on <a href="https://unsplash.com">Unsplash</a>
         </p>
-    <script src="js/index.js" defer>
 
-    </script> 
-    <section id="Message">
-        <h2>Leave a Message</h2>
-        <form name="leave_message">
-            <label for="usersName">Name</label>
-            <input type="text" name="usersName" id="usersName" required>
-            <!-- name helps us use the contents of the box; id gives the box an identifier we can eg link the label to -->
-            <label for="usersEmail">Email</label>
-            <input type="email" name="usersEmail" id="usersEmail" required>
+        <script src="js/index.js" defer>
 
-            <label for="usersMessage">Message</label>
-            <textarea name="usersMessage" id="usersMessage" required></textarea>
+        </script> 
+        <section id="Message">
+            <h2>Leave a Message</h2>
+            <form name="leave_message">
+                <label for="usersName">Name</label>
+                <input type="text" name="usersName" id="usersName" required>
+                <!-- name helps us use the contents of the box; id gives the box an identifier we can eg link the label to -->
+                <label for="usersEmail">Email</label>
+                <input type="email" name="usersEmail" id="usersEmail" required>
 
-            <button type="submit">Submit</button>
+                <label for="usersMessage">Message</label>
+                <textarea name="usersMessage" id="usersMessage" required></textarea>
 
-        </form>
-    </section>
-    <section id="messages">
-        <h2>Messages</h2>
-        <ul>
+                <button type="submit">Submit</button>
 
-        </ul>
-    </section>
+            </form>
+        </section>
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul>
+
+            </ul>
+        </section>
     
 
     </body>
