@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <title> World Cup Checker</title>
+        <title> World Cup 2022 Checker</title>
         <meta charset="UTF-8">
         <meta name="description" content="CTD Open API">
         <meta name="author" content="J-D Laurence">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/openapi.css">
+        <link href=""https://fonts.googleapis.com//css2?family=Crimson+Pro:wght@400;600&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#Section1">Section 1</a></li>
-                <li><a href="#Section2">Section 2</a></li>
+                <li><a href="#teams" id="nav-teams">Teams</a></li>
+                <li><a href="#results" id="nav-results">Results</a></li>
             </ul>
         </nav>
         
-        <h1>World Cup Checker</h1>
+        <h1>World Cup<span class="gold"> 2022</span></h1>
+        <p class="subtitle">FIFA World Cup Qatar - Results</p>
 
-        <section id="Section1">
-            <h2>Section 1</h2>
+        <section id="teams">
+            <h2>Teams</h2>
+            <p> Load the competing nations and then choose a team </p>
+            <button id="load-teams-btn" type="button">Load Teams</button>
+            <div id="teams-container"></div>
         </section>
 
-        <section id="Section2">
-            <h2>Section 2</h2>
+        <section id="results">
+            <h2>Results</h2>
+            <p>Select a team above and then load their results</p>
+            <button id="load-results-btn" type="button">Load Results</button>
+            <div id="fixture-container">
+
+            </div>
         </section>
+
+        <script src="js/openapi.js" defer>
+
+        </script>
             
     </body>
 </html>
