@@ -4,10 +4,17 @@ nav{
     display: flex;
     background-color: aliceblue; 
     z-index: 100; /* just in case */
-    gap: 24px;
     padding: 16px 0;
     border-bottom: 1px solid #ccc;
     margin-bottom: 32px
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
 }
 
 nav a {
