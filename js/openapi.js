@@ -1,3 +1,7 @@
+
+// const API_KEY = 'YOUR_API_KEY';
+// For security I would prefer to not hardcode the API key but I am including it here
+//  so it can be tested easily when submitted
 const API_KEY = '048b5c31b4aea4e297918c6a6f7fa452';
 const BASE_URL = 'https://v3.football.api-sports.io';
 
